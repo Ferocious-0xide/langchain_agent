@@ -31,7 +31,7 @@ Build intelligent workflows using specialized agents that can perceive, decide, 
 
 📊 Project Structure
 
-graph LR
+flowchart LR
     A[Agentic Workflow Project]
     A --> B[bin/start-jupyter]
     A --> AS[assets/images/agent-logo.png]
