@@ -1,6 +1,6 @@
 🤖 Agentic Workflow Framework
 <p align="center">
-  <img src="assets/images/agent-logo.png" alt="Agent Logo">
+  <img src="assets/images/Agent_image.png" alt="Agent Logo">
 </p>
 <p align="center">
   A powerful, flexible framework for building autonomous agent-based workflows in Python.
@@ -30,7 +30,7 @@ Build intelligent workflows using specialized agents that can perceive, decide, 
 🤝 Easy integration with Claude and other APIs
 
 📊 Project Structure
-mermaidCopygraph TD
+graph TD
     A[Agentic Workflow Project] --> B[bin]
     A --> AS[assets]
     A --> C[docs]
