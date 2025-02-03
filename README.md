@@ -30,60 +30,30 @@ Build intelligent workflows using specialized agents that can perceive, decide, 
 🤝 Easy integration with Claude and other APIs
 
 📊 Project Structure
-graph TD
-    A[Agentic Workflow Project] --> B[bin]
-    A --> AS[assets]
-    A --> C[docs]
-    A --> D[notebooks]
+
+graph LR
+    A[Agentic Workflow Project]
+    A --> B[bin/start-jupyter]
+    A --> AS[assets/images/agent-logo.png]
+    A --> C[docs/<br>agents.md<br>workflows.md<br>examples.md]
+    A --> D[notebooks/example.ipynb]
     A --> E[src]
     A --> F[tests]
     A --> G[requirements.txt]
     A --> H[README.md]
-
-    AS --> AS1[images]
-    AS1 --> AS1_1[agent-logo.png]
-
-    B --> B1[start-jupyter]
-
-    C --> C1[agents.md]
-    C --> C2[workflows.md]
-    C --> C3[examples.md]
-
-    D --> D1[example.ipynb]
-
-    E --> E1[agents]
-    E --> E2[config]
-    E --> E3[core]
-    E --> E4[utils]
-
-    E1 --> E1_1[base.py]
-    E1 --> E1_2[input.py]
-    E1 --> E1_3[retrieval.py]
-    E1 --> E1_4[summarization.py]
-    E1 --> E1_5[storage.py]
-    E1 --> E1_6[__init__.py]
-
-    E2 --> E2_1[settings.py]
-    E2 --> E2_2[__init__.py]
-
-    E3 --> E3_1[workflow.py]
-    E3 --> E3_2[__init__.py]
-
-    E4 --> E4_1[async_helpers.py]
-    E4 --> E4_2[logging.py]
-    E4 --> E4_3[__init__.py]
-
+    
+    E --> E1[agents/<br>base.py<br>input.py<br>retrieval.py<br>summarization.py<br>storage.py<br>__init__.py]
+    E --> E2[config/<br>settings.py<br>__init__.py]
+    E --> E3[core/<br>workflow.py<br>__init__.py]
+    E --> E4[utils/<br>async_helpers.py<br>logging.py<br>__init__.py]
+    
     F --> F1[test_agents]
     F --> F2[test_workflows]
     F --> F3[conftest.py]
     F --> F4[__init__.py]
-
+    
     style A fill:#f9f,stroke:#333,stroke-width:4px
-    style AS fill:#bbf,stroke:#333,stroke-width:2px
-    style E1 fill:#bbf,stroke:#333,stroke-width:2px
-    style E2 fill:#bbf,stroke:#333,stroke-width:2px
-    style E3 fill:#bbf,stroke:#333,stroke-width:2px
-    style E4 fill:#bbf,stroke:#333,stroke-width:2px
+    style E fill:#bbf,stroke:#333,stroke-width:2px
 
 ## 📁 Project Structure
 
