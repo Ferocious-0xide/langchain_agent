@@ -33,28 +33,44 @@ Build intelligent workflows using specialized agents that can perceive, decide, 
 
 flowchart LR
     A[Agentic Workflow Project]
-    A --> B[bin/start-jupyter]
-    A --> AS[assets/images/agent-logo.png]
-    A --> C[docs/<br>agents.md<br>workflows.md<br>examples.md]
-    A --> D[notebooks/example.ipynb]
-    A --> E[src]
-    A --> F[tests]
-    A --> G[requirements.txt]
-    A --> H[README.md]
+    A --> B["bin/start-jupyter"]
+    A --> AS["assets/images/agent-logo.png"]
+    A --> C["docs/
+    - agents.md
+    - workflows.md
+    - examples.md"]
+    A --> D["notebooks/example.ipynb"]
+    A --> E["src"]
+    A --> F["tests"]
+    A --> G["requirements.txt"]
+    A --> H["README.md"]
     
-    E --> E1[agents/<br>base.py<br>input.py<br>retrieval.py<br>summarization.py<br>storage.py<br>__init__.py]
-    E --> E2[config/<br>settings.py<br>__init__.py]
-    E --> E3[core/<br>workflow.py<br>__init__.py]
-    E --> E4[utils/<br>async_helpers.py<br>logging.py<br>__init__.py]
+    E --> E1["agents/
+    - base.py
+    - input.py
+    - retrieval.py
+    - summarization.py
+    - storage.py
+    - __init__.py"]
+    E --> E2["config/
+    - settings.py
+    - __init__.py"]
+    E --> E3["core/
+    - workflow.py
+    - __init__.py"]
+    E --> E4["utils/
+    - async_helpers.py
+    - logging.py
+    - __init__.py"]
     
-    F --> F1[test_agents]
-    F --> F2[test_workflows]
-    F --> F3[conftest.py]
-    F --> F4[__init__.py]
+    F --> F1["test_agents"]
+    F --> F2["test_workflows"]
+    F --> F3["conftest.py"]
+    F --> F4["__init__.py"]
     
     style A fill:#f9f,stroke:#333,stroke-width:4px
     style E fill:#bbf,stroke:#333,stroke-width:2px
-
+    
 ## 📁 Project Structure
 
 ```
