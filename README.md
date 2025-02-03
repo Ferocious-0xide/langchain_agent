@@ -29,48 +29,12 @@ Build intelligent workflows using specialized agents that can perceive, decide, 
 🛡️ Comprehensive error handling
 🤝 Easy integration with Claude and other APIs
 
-📊 Project Structure
+📊 Project Design
 
-flowchart LR
-    A[Agentic Workflow Project]
-    A --> B["bin/start-jupyter"]
-    A --> AS["assets/images/agent-logo.png"]
-    A --> C["docs/
-    - agents.md
-    - workflows.md
-    - examples.md"]
-    A --> D["notebooks/example.ipynb"]
-    A --> E["src"]
-    A --> F["tests"]
-    A --> G["requirements.txt"]
-    A --> H["README.md"]
-    
-    E --> E1["agents/
-    - base.py
-    - input.py
-    - retrieval.py
-    - summarization.py
-    - storage.py
-    - __init__.py"]
-    E --> E2["config/
-    - settings.py
-    - __init__.py"]
-    E --> E3["core/
-    - workflow.py
-    - __init__.py"]
-    E --> E4["utils/
-    - async_helpers.py
-    - logging.py
-    - __init__.py"]
-    
-    F --> F1["test_agents"]
-    F --> F2["test_workflows"]
-    F --> F3["conftest.py"]
-    F --> F4["__init__.py"]
-    
-    style A fill:#f9f,stroke:#333,stroke-width:4px
-    style E fill:#bbf,stroke:#333,stroke-width:2px
-    
+<p align="center">
+  <img src="assets/images/Agent_mermaid.png" alt="Agent Mermaid Diagram">
+</p>
+
 ## 📁 Project Structure
 
 ```
